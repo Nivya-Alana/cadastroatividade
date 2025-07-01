@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = []
+        let data = []
+        let celular = []
+        let convenio = []
+        let hora = []
+        let quant =Number (prompt ("Quantos cadastros?"));
+        for (let i = 0; i< quant; i++){
+            nome[i]= prompt("Digite o nome:");
+         data [i]= prompt ("Digite a data:");
+         celular [i]= prompt ("Digite o celular:");
+         convenio [i]=prompt ("Digite o convenio:");
+         hora [i]=prompt ("Digite a hora:");
+    
+        }
+         
+
+        for (i=0;i<quant;i++){
+       document.write ("<br><br> nome"+ nome +"<br><br>");
+       document.write ("<br><br>data"+ data + "<br><br>");
+       document.write ("<br><br> celular" + celular+ "<br><br>");
+       document.write ("<br><br>convenio" + convenio + "<br><br>");
+       document.write ("<br><br>hora" + hora + "<br><br>");
+
+        }
+    </script>
+</body>
+</html>
